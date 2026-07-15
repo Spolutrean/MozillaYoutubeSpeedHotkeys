@@ -1,0 +1,14 @@
+node_modules/
+*.zip
+*.png
+.DS_Store
+.env
+
+# Temporary/debug scripts and browser profiles
+tests/diag-*.mjs
+tests/*-debug.mjs
+tests/try-*.mjs
+tests/inspect-*.mjs
+tests/firefox-smoke.mjs
+tests/firefox-selenium-smoke.mjs
+/tmp/

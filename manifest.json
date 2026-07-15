@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Speed Hotkeys",
+  "version": "1.1.7",
+  "description": "Opens YouTube's native playback speed menu with S and adds speed hotkeys.",
+  "icons": {
+    "48": "icons/icon-48.svg",
+    "96": "icons/icon-96.svg"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*", "*://m.youtube.com/*"],
+      "js": ["content-script.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["page-bridge.js"],
+      "matches": ["*://www.youtube.com/*", "*://m.youtube.com/*"]
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "youtube-speed-hotkeys@local",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  }
+}
