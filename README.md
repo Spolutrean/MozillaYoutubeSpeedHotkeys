@@ -8,10 +8,6 @@ Firefox extension that opens YouTube's native playback-speed menu and adds speed
 - `←` / `→` while the speed menu is open — decrease/increase speed by `0.05x`.
 - `1`, `2`, `3` while the speed menu is open — set `1x`, `2x`, `3x` directly.
 
-This version intentionally uses YouTube's built-in menu instead of a custom centered overlay, and does not handle `Esc` specially.
-
-The extension ignores hotkeys while you are typing in inputs, textareas, selects, or content-editable fields.
-
 ## Install temporarily in Firefox
 
 1. Open `about:debugging#/runtime/this-firefox`.
