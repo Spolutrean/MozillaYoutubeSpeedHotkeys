@@ -17,4 +17,4 @@ Firefox extension that opens YouTube's native playback-speed menu and adds speed
 
 ## Package
 
-The generated package is `youtube-speed-hotkeys-1.1.7.zip`.
+The generated extension packages are inside the `release` folder.
